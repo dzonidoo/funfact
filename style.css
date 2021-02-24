@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.funfact {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, #ffe7f6), to(#ffaee1));
+  background: linear-gradient(0deg, white 0%, #ffe7f6 50%, #ffaee1 100%);
+  font-family: 'Reggae One', cursive;
+  color: #b4009c;
+}
+
+.funfact h1 {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.funfact h1 span {
+  font-size: 60px;
+}
+
+.next {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.button {
+  font-size: 20px;
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */
